@@ -212,6 +212,7 @@ section {
     text-align: center;
     margin: 20px;
     gap: 20px;
+    position: relative;
 }
 
 @media only screen and (max-width: 1124px) {
@@ -228,6 +229,7 @@ section {
 /* Step 3: Sidebar Section Styles */
 .sidebar {
     flex: 50%;
+    
 }
 
 .sidebar h2 {
@@ -243,9 +245,10 @@ section {
     position: sticky;
     min-height: 50%;
     box-shadow: 5px 10px #46a69cb9;
-    width: 100%;
+    width: 100vh;
     justify-content: center;
     align-content: stretch;
+    
 }
 
 
